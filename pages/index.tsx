@@ -30,7 +30,7 @@ const Home: NextPage = () => {
           <div className={styles.cartao}>4</div>
         </div>
 
-        <Link href={"/carlsberg"}>Ir para carlsberg</Link>
+        <Link href={"/nova"}>Ir para nova pagina</Link>
       </main>
     </div>
   );
