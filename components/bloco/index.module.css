@@ -1,0 +1,13 @@
+.componente {
+  border: 1px solid #000;
+  padding: 10px;
+  background-image: url("https://www.w3schools.com/w3images/fjords.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
