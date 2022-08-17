@@ -19,7 +19,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "components/bloco/index.js",
+    "components/block/index.js",
     "components/button/index.js"
   ],
   "exclude": ["node_modules"]

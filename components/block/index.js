@@ -1,6 +1,6 @@
 import styles from "./index.module.css";
 
-export const Bloco = () => {
+const Block = () => {
   return (
     <div className={styles.componente}>
       <h1>eeee</h1>
@@ -8,3 +8,5 @@ export const Bloco = () => {
     </div>
   );
 };
+
+export default Block;

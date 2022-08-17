@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Block from "../components/block";
 import Button from "../components/button";
 import styles from "../styles/Home.module.css";
 
@@ -22,6 +23,8 @@ const Home: NextPage = () => {
           <Button buttonTexto="Button 1" variant="primary" />
           <Button buttonTexto="Button 2" variant="secondary" />
         </div>
+
+        <Block />
 
         <div className={styles.cartoes}>
           <div className={styles.cartao}>1</div>
